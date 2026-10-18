@@ -39,7 +39,6 @@ except ModuleNotFoundError:
     import subprocess
     import sys
 
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "--quiet", "plotly"])
     import plotly.graph_objects as go
 
 st.set_page_config(
